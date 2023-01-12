@@ -35,4 +35,64 @@
   to {
     transform: rotate(360deg);
   }
+  
+}
+.container{
+  background-color: aquamarine;
+ padding: 25px;
+ width: fit-content;
+position: relative;
+left:400px;
+margin-top: 25px;
+}
+.inputText{
+  width: 450px;
+height: 50px;
+
+}
+.getBtn{
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(86, 86, 228);
+  color: white;
+}
+.field{
+  margin-left: 0%;
+  display: inline;
+  margin-bottom: 20px;
+}
+.childDiv{
+  /* margin-top: 20px; */
+}
+.removeBtn{
+      margin-left: 5px;
+      width: 60px;
+      height: 38px;
+      background-color: rgb(212, 83, 83);
+}
+li{
+ 
+  border: 1px solid red;
+  width:400px;
+  
+  background-color: cadetblue;
+  color: #282c34;
+ height: 35px;
+}
+ul{
+  display: flex;
+
+
+}
+.removeAll{
+  width: 83px;
+  height: 38px;
+  background-color: red;
+}
+.updateBtn{
+  margin-left: 5px;
+      width: 60px;
+      height: 38px;
+      background-color: green;
 }
